@@ -18,8 +18,17 @@ AND _______
 ORDER BY _______
 LIMIT ______;
 
--- LAB 2 general syntax
+-- LAB 3 general syntax
 SELECT ____, COUNT(*) / AVG(column) / MAX(column) / MIN (column) / SUM (column) FROM _____
+WHERE _______
+AND _______
+GROUP BY _______
+ORDER BY _______
+LIMIT ______;
+
+-- LAB 4 general syntax
+SELECT ____, COUNT(*) / AVG(column) / MAX(column) / MIN (column) / SUM (column) FROM _____
+INNER JOIN _____ ON _____ 
 WHERE _______
 AND _______
 GROUP BY _______
